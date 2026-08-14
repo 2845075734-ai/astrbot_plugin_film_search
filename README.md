@@ -27,8 +27,7 @@ API 来源：https://api-v2.yuafeng.cn
 
 二、安装步骤
 --------------------------------------------------
-1. 在 AstrBot 的 data/plugins/ 目录下新建文件夹，命名为：film_search
-   （注意：文件夹名必须严格为 film_search，否则无法读取配置）
+1. 在插件市场搜索film_search直接安装或者到https://github.com/2845075734-ai/astrbot_plugin_film_search下载安装
 2. 将以下三个文件放入该文件夹：
    - main.py（插件主代码）
    - metadata.yaml（插件元数据）
