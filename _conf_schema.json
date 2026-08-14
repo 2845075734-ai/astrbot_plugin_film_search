@@ -1,0 +1,15 @@
+{
+  "apikey": {
+    "description": "API 密钥 (apikey)",
+    "type": "string",
+    "hint": "填入你的 API Key。前往 api-v2.yuafeng.cn 注册并获取。",
+    "default": "",
+    "obvious_hint": true
+  },
+  "max_results": {
+    "description": "单次搜索最大返回条数",
+    "type": "int",
+    "hint": "LLM搜索和手动搜索时最多返回的影视条目数量。0 表示不限制（返回全部）。建议根据平台消息长度限制设置，如 10、20。",
+    "default": 0
+  }
+}

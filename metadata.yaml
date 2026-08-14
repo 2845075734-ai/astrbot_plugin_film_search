@@ -1,0 +1,16 @@
+name: astrbot_plugin_film_search
+display_name: 影视搜索助手
+author: your_name
+short_desc: 支持LLM自动调用/手动指令搜索影视，返回完整播放链接
+desc: |
+  影视资源搜索工具，集成 api-v2.yuafeng.cn 接口。
+  双模式使用：
+  1. 对话中让 LLM 自动识别意图并调用工具搜索，返回完整的影视信息和播放链接
+  2. 手动使用 /film 系列指令直接搜索、查看详情、获取播放地址
+  支持通过管理面板配置自定义 API Key，支持豆瓣评分、简介、完整播放链接展示。
+version: 1.0.0
+author:yikexing
+astrbot_version: ">=4.5.7"
+support_platforms:
+  - aiocqhttp
+repo:https://github.com/2845075734-ai/astrbot_plugin_film_search
