@@ -28,13 +28,7 @@ API 来源：https://api-v2.yuafeng.cn
 二、安装步骤
 --------------------------------------------------
 1. 在插件市场搜索film_search直接安装或者到https://github.com/2845075734-ai/astrbot_plugin_film_search 下载安装
-2. 将以下三个文件放入该文件夹：
-   - main.py（插件主代码）
-   - metadata.yaml（插件元数据）
-   - _conf_schema.json（配置文件Schema）
-3. 打开 AstrBot WebUI，进入「插件管理」页面
-4. 找到「影视搜索助手」插件，点击「重载插件」
-5. 确认日志出现 [film_search] ✅ 配置读取成功 提示，即安装完成
+2. 确认日志出现 [film_search] ✅ 配置读取成功 提示，即安装完成
 
 ==================================================
 
